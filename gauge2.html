@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>ECharts</title>
+    <!-- 引入 echarts.js -->
+    <script src="echarts.min.js"></script>
+</head>
+
+<body>
+    <!-- 为ECharts准备一个具备大小（宽高）的Dom -->
+    <div id="main" style="width: 600px;height:400px;"></div>
+    <script type="text/javascript">
+    // 基于准备好的dom，初始化echarts实例
+    var myChart = echarts.init(document.getElementById('main'));
+
+    // 指定图表的配置项和数据
+    // option = {
+    //     tooltip: {
+    //         formatter: "{a} <br/>{b} : {c}%"
+    //     },
+    //     toolbox: {
+    //         feature: {
+    //             restore: {},
+    //             saveAsImage: {}
+    //         }
+    //     },
+
+    //     series: [{
+    //         name: '业务指标',
+    //         type: 'gauge',
+    //         pointer: {
+    //             show: true,
+    //             width: 5,
+    //             length: '50%',
+    //         },
+    //         detail: { formatter: '{value}分' },
+    //         data: [{ value: 50, name: '完成率' }]
+    //     }]
+    // };
+
+    option = { "series": [{ "name": "风险等级", "type": "gauge", "splitNumber": 10, "axisLine": { "lineStyle": { "color": [
+                        [0.15, "#71bbbf"],
+                        [0.3, "#7ccc6e"],
+                        [0.6, "#ffd02f"],
+                        [0.85, "#fc7b25"],
+                        [1, "#ec2d2d"]
+                    ], "width": 15 } }, "axisTick": { "show": false, "splitNumber": 10, "length": 12, "lineStyle": { "color": "auto" } }, "axisLabel": { "show": true, "margin": 4, "textStyle": { "color": "#333" } }, "splitLine": { "show": false, "length": 16, "lineStyle": { "color": "auto" } }, "pointer": { "width": 6 }, "title": { "show": true, "offsetCenter": [0, "90%"], "textStyle": { "fontWeight": "bolder" } }, "detail": { "show": false, "formatter": "{value}", "offsetCenter": [0, "60%"], "textStyle": { "color": "auto", "fontWeight": "bolder" } }, "data": [{ "value": 71, "name": "C4(积极型)" }] }] }
+
+    // 使用刚指定的配置项和数据显示图表。
+    myChart.setOption(option, true);
+    </script>
+</body>
+
+</html>
