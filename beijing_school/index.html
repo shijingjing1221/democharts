@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+	<style type="text/css">
+		body, html,#allmap {width: 100%;height: 100%;overflow: hidden;margin:0;font-family:"微软雅黑";}
+	</style>
+	<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=RsIgaDtmcQ63FTIE4Z0XOAHC6z085w1R"></script>
+    <script src="../jquery.js"></script>
+    <title>海淀区学区房</title>
+</head>
+<body>
+	<div id="allmap"></div>
+</body>
+</html>
+<script type="text/javascript">
+	// 百度地图API功能
+	var map = new BMap.Map("allmap");
+	map.centerAndZoom(new BMap.Point(116.403765, 39.914850), 5);
+	map.enableScrollWheelZoom();
+
+	function getBoundary(data){       
+		var bdary = new BMap.Boundary();
+		bdary.get("北京市海淀区", function(rs){       //获取行政区域
+			map.clearOverlays();        //清除地图覆盖物       
+			var count = rs.boundaries.length; //行政区域的点有多少个
+			if (count === 0) {
+				alert('未能获取当前输入行政区域');
+				return ;
+			}
+          	var pointArray = [];
+			for (var i = 0; i < count; i++) {
+				var ply = new BMap.Polygon(rs.boundaries[i], {strokeWeight: 2, strokeColor: "#ff0000"}); //建立多边形覆盖物
+				map.addOverlay(ply);  //添加覆盖物
+				pointArray = pointArray.concat(ply.getPath());
+			}    
+			map.setViewport(pointArray);    //调整视野  
+			addlabel(data);               
+		});   
+	}
+
+	// setTimeout(function(){
+	// 	getBoundary();
+    // }, 2000);
+    
+    $.get('data/schools.json', function(data) {
+        getBoundary(data);
+    });
+
+	// function addlabel(data) {
+	//     var pointArray = [
+    //       new BMap.Point(116.30634495784385,39.933753104996437),
+    //       new BMap.Point(116.3578960242297,39.97693463929254)
+	//       ];
+    //   var optsArray = [{},{}];
+    //   var labelArray = [{},{}];
+    //   var makerArray = [{}, {}];
+    //   	var colorArray=['red','blue'];
+	//     var contentArray = [
+	//      '八里庄小学','学院路小学'];
+	//     for(var i = 0;i < pointArray.length; i++) {
+	//       optsArray[i].position = pointArray[i];
+	//       labelArray[i] = new BMap.Label(contentArray[i],optsArray[i]);
+	//       labelArray[i].setStyle({
+	// 		color : colorArray[i],
+	// 		fontSize : "12px",
+	// 			 height : "20px",
+    //         width:"50px",
+	// 			 lineHeight : "20px",
+	// 			 fontFamily:"微软雅黑"
+	// 		 });
+    //       console.log(labelArray[i]);
+
+    //       makerArray[i] = new BMap.Marker(pointArray[i]);  // 创建标注
+	// map.addOverlay( makerArray[i]);              // 将标注添加到地图中
+	//       map.addOverlay(labelArray[i]);
+	//     }	  
+    // }
+    
+    function addlabel(data) {
+        var length = data.length;
+        var optsArray = new Array(length);
+        var labelArray=new Array(length);
+        var makerArray= new Array(length);
+        var pointArray = new Array(length);
+	    for(var i = 0;i < length; i++) {
+            var item = data[i];
+            pointArray[i]=new BMap.Point(item.result.location.lng,item.result.location.lat)
+	      optsArray[i]= {position : pointArray[i]};
+	      labelArray[i] = new BMap.Label(item.name,optsArray[i]);
+	      labelArray[i].setStyle({
+			color : item.color,
+			fontSize : "12px",
+				 height : "20px",
+            width:"50px",
+				 lineHeight : "20px",
+				 fontFamily:"微软雅黑"
+			 });
+          console.log(labelArray[i]);
+
+          makerArray[i] = new BMap.Marker(pointArray[i]);  // 创建标注
+	map.addOverlay( makerArray[i]);              // 将标注添加到地图中
+	      map.addOverlay(labelArray[i]);
+	    }	  
+	}
+</script>

@@ -1,0 +1,27 @@
+[{
+    "name":"学院路小学",
+    "color":"red",
+    "result": {
+        "location": {
+          "lng": 116.3578960242297,
+          "lat": 39.97693463929254
+        },
+        "precise": 1,
+        "confidence": 90,
+        "comprehension": 100,
+        "level": "教育"
+      }
+},
+{"name":"八里庄小学",
+    "color":"blue",
+    "result": {
+        "location": {
+          "lng": 116.30634495784385,
+          "lat": 39.933753104996437
+        },
+        "precise": 1,
+        "confidence": 75,
+        "comprehension": 100,
+        "level": "教育"
+      }
+}]
