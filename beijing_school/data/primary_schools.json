@@ -1,0 +1,1787 @@
+[
+    {
+        "name": "农科院附小",
+        "location": {
+            "status": 0,
+            "result": {
+                "location": {
+                    "lng": 114.53056558876598,
+                    "lat": 36.56894418061922
+                },
+                "precise": 1,
+                "confidence": 80,
+                "comprehension": 97,
+                "level": "教育"
+            }
+        },
+        "color": "#C0C0C0"
+    },
+    {
+        "name": "农科院附小明光路校区",
+        "location": {
+            "status": 0,
+            "result": {
+                "location": {
+                    "lng": 114.53056558876598,
+                    "lat": 36.56894418061922
+                },
+                "precise": 0,
+                "confidence": 80,
+                "comprehension": 94,
+                "level": "教育"
+            }
+        },
+        "color": "#C0C0C0"
+    },
+    {
+        "name": "农科院附小政法路校区",
+        "location": {
+            "status": 0,
+            "result": {
+                "location": {
+                    "lng": 116.11021159177957,
+                    "lat": 39.94562212899151
+                },
+                "precise": 0,
+                "confidence": 50,
+                "comprehension": 100,
+                "level": "道路"
+            }
+        },
+        "color": "#C0C0C0"
+    },
+    {
+        "name": "农科院附小北校区",
+        "location": {
+            "status": 0,
+            "result": {
+                "location": {
+                    "lng": 114.53056558876598,
+                    "lat": 36.56894418061922
+                },
+                "precise": 0,
+                "confidence": 80,
+                "comprehension": 95,
+                "level": "教育"
+            }
+        },
+        "color": "#C0C0C0"
+    },
+    {
+        "name": "农科院附小气象路校区",
+        "location": {
+            "status": 0,
+            "result": {
+                "location": {
+                    "lng": 116.33461308356415,
+                    "lat": 39.96311937989138
+                },
+                "precise": 0,
+                "confidence": 40,
+                "comprehension": 65,
+                "level": "UNKNOWN"
+            }
+        },
+        "color": "#C0C0C0"
+    },
+    {
+        "name": "交大附小南校区",
+        "location": {
+            "status": 0,
+            "result": {
+                "location": {
+                    "lng": 120.8784156810808,
+                    "lat": 32.01216848384174
+                },
+                "precise": 1,
+                "confidence": 75,
+                "comprehension": 100,
+                "level": "UNKNOWN"
+            }
+        },
+        "color": "#C0C0C0"
+    },
+    {
+        "name": "北邮附小",
+        "location": {
+            "status": 0,
+            "result": {
+                "location": {
+                    "lng": 116.36243369503872,
+                    "lat": 39.96759112638258
+                },
+                "precise": 0,
+                "confidence": 40,
+                "comprehension": 44,
+                "level": "UNKNOWN"
+            }
+        },
+        "color": "#C0C0C0"
+    },
+    {
+        "name": "北邮附小文慧园校区",
+        "location": {
+            "status": 0,
+            "result": {
+                "location": {
+                    "lng": 116.37617265977964,
+                    "lat": 39.95811004173714
+                },
+                "precise": 0,
+                "confidence": 40,
+                "comprehension": 100,
+                "level": "地产小区"
+            }
+        },
+        "color": "#C0C0C0"
+    },
+    {
+        "name": "星火小学",
+        "location": {
+            "status": 0,
+            "result": {
+                "location": {
+                    "lng": 116.37354484038316,
+                    "lat": 39.95943106972739
+                },
+                "precise": 1,
+                "confidence": 80,
+                "comprehension": 100,
+                "level": "教育"
+            }
+        },
+        "color": "#C0C0C0"
+    },
+    {
+        "name": "学院路小区",
+        "location": {
+            "status": 0,
+            "result": {
+                "location": {
+                    "lng": 121.50339227965569,
+                    "lat": 31.229162104224827
+                },
+                "precise": 1,
+                "confidence": 80,
+                "comprehension": 100,
+                "level": "地产小区"
+            }
+        },
+        "color": "#C0C0C0"
+    },
+    {
+        "name": "北医附小",
+        "location": {
+            "status": 0,
+            "result": {
+                "location": {
+                    "lng": 116.37115184703005,
+                    "lat": 39.99135899240169
+                },
+                "precise": 1,
+                "confidence": 80,
+                "comprehension": 100,
+                "level": "教育"
+            }
+        },
+        "color": "#808080"
+    },
+    {
+        "name": "北航实验学校小学部",
+        "location": {
+            "status": 0,
+            "result": {
+                "location": {
+                    "lng": 116.35349798063932,
+                    "lat": 39.98758633349042
+                },
+                "precise": 0,
+                "confidence": 40,
+                "comprehension": 42,
+                "level": "商圈"
+            }
+        },
+        "color": "#808080"
+    },
+    {
+        "name": "海淀民族小学",
+        "location": {
+            "status": 0,
+            "result": {
+                "location": {
+                    "lng": 116.38265958257917,
+                    "lat": 39.97761085732177
+                },
+                "precise": 1,
+                "confidence": 80,
+                "comprehension": 100,
+                "level": "教育"
+            }
+        },
+        "color": "#808080"
+    },
+    {
+        "name": "九一小学东校区",
+        "location": {
+            "status": 0,
+            "result": {
+                "location": {
+                    "lng": 116.36868760816863,
+                    "lat": 39.98531726072315
+                },
+                "precise": 1,
+                "confidence": 80,
+                "comprehension": 100,
+                "level": "UNKNOWN"
+            }
+        },
+        "color": "#808080"
+    },
+    {
+        "name": "九一小学西校区",
+        "location": {
+            "status": 0,
+            "result": {
+                "location": {
+                    "lng": 116.36816153530944,
+                    "lat": 39.98504840967903
+                },
+                "precise": 1,
+                "confidence": 80,
+                "comprehension": 100,
+                "level": "教育"
+            }
+        },
+        "color": "#808080"
+    },
+    {
+        "name": "前进小学",
+        "location": {
+            "status": 0,
+            "result": {
+                "location": {
+                    "lng": 116.36652012004092,
+                    "lat": 39.98026440673439
+                },
+                "precise": 1,
+                "confidence": 75,
+                "comprehension": 100,
+                "level": "教育"
+            }
+        },
+        "color": "#808080"
+    },
+    {
+        "name": "人大附中实验小学",
+        "location": {
+            "status": 0,
+            "result": {
+                "location": {
+                    "lng": 116.32860259505794,
+                    "lat": 39.98052977436685
+                },
+                "precise": 1,
+                "confidence": 70,
+                "comprehension": 100,
+                "level": "教育"
+            }
+        },
+        "color": "#FFFFFF"
+    },
+    {
+        "name": "中关村一小",
+        "location": {
+            "status": 0,
+            "result": {
+                "location": {
+                    "lng": 116.28227617502664,
+                    "lat": 40.02283203874844
+                },
+                "precise": 0,
+                "confidence": 50,
+                "comprehension": 100,
+                "level": "教育"
+            }
+        },
+        "color": "#FFFFFF"
+    },
+    {
+        "name": "中关村二小",
+        "location": {
+            "status": 0,
+            "result": {
+                "location": {
+                    "lng": 116.32309900418151,
+                    "lat": 39.993179336929984
+                },
+                "precise": 1,
+                "confidence": 80,
+                "comprehension": 100,
+                "level": "教育"
+            }
+        },
+        "color": "#FFFFFF"
+    },
+    {
+        "name": "中关村二小华清校区",
+        "location": {
+            "status": 0,
+            "result": {
+                "location": {
+                    "lng": 128.2491403082562,
+                    "lat": 43.37399803508489
+                },
+                "precise": 1,
+                "confidence": 70,
+                "comprehension": 92,
+                "level": "UNKNOWN"
+            }
+        },
+        "color": "#FFFFFF"
+    },
+    {
+        "name": "中科启元学校",
+        "location": {
+            "status": 0,
+            "result": {
+                "location": {
+                    "lng": 120.36950819333104,
+                    "lat": 36.13722610176028
+                },
+                "precise": 1,
+                "confidence": 75,
+                "comprehension": 100,
+                "level": "教育"
+            }
+        },
+        "color": "#FFFFFF"
+    },
+    {
+        "name": "中关村四小",
+        "location": {
+            "status": 0,
+            "result": {
+                "location": {
+                    "lng": 116.34663600450969,
+                    "lat": 39.975215178246174
+                },
+                "precise": 1,
+                "confidence": 80,
+                "comprehension": 100,
+                "level": "教育"
+            }
+        },
+        "color": "#FFFFFF"
+    },
+    {
+        "name": "双榆树一小",
+        "location": {
+            "status": 0,
+            "result": {
+                "location": {
+                    "lng": 116.33391860357439,
+                    "lat": 39.97542245278963
+                },
+                "precise": 1,
+                "confidence": 80,
+                "comprehension": 100,
+                "level": "教育"
+            }
+        },
+        "color": "#FFFFFF"
+    },
+    {
+        "name": "双榆树中心小学",
+        "location": {
+            "status": 0,
+            "result": {
+                "location": {
+                    "lng": 116.33016437015317,
+                    "lat": 39.97483870240009
+                },
+                "precise": 1,
+                "confidence": 80,
+                "comprehension": 100,
+                "level": "教育"
+            }
+        },
+        "color": "#FFFFFF"
+    },
+    {
+        "name": "中关村三小万柳校区",
+        "location": {
+            "status": 0,
+            "result": {
+                "location": {
+                    "lng": 116.30277936857972,
+                    "lat": 39.97452146789995
+                },
+                "precise": 1,
+                "confidence": 80,
+                "comprehension": 100,
+                "level": "教育"
+            }
+        },
+        "color": "#800000"
+    },
+    {
+        "name": "中关村三小华联校区",
+        "location": {
+            "status": 0,
+            "result": {
+                "location": {
+                    "lng": 116.32711270955606,
+                    "lat": 39.99441274013135
+                },
+                "precise": 0,
+                "confidence": 80,
+                "comprehension": 91,
+                "level": "地产小区"
+            }
+        },
+        "color": "#800000"
+    },
+    {
+        "name": "万泉小学",
+        "location": {
+            "status": 0,
+            "result": {
+                "location": {
+                    "lng": 116.30854154388365,
+                    "lat": 39.97661780612545
+                },
+                "precise": 1,
+                "confidence": 75,
+                "comprehension": 100,
+                "level": "教育"
+            }
+        },
+        "color": "#800000"
+    },
+    {
+        "name": "八一学校小学部",
+        "location": {
+            "status": 0,
+            "result": {
+                "location": {
+                    "lng": 116.30987205202194,
+                    "lat": 39.9849714682598
+                },
+                "precise": 1,
+                "confidence": 80,
+                "comprehension": 46,
+                "level": "UNKNOWN"
+            }
+        },
+        "color": "#800000"
+    },
+    {
+        "name": "西颐小学",
+        "location": {
+            "status": 0,
+            "result": {
+                "location": {
+                    "lng": 116.31963992430678,
+                    "lat": 39.97091483621249
+                },
+                "precise": 1,
+                "confidence": 80,
+                "comprehension": 100,
+                "level": "教育"
+            }
+        },
+        "color": "#800000"
+    },
+    {
+        "name": "万泉河小学",
+        "location": {
+            "status": 0,
+            "result": {
+                "location": {
+                    "lng": 116.30786834025987,
+                    "lat": 39.99284314956669
+                },
+                "precise": 1,
+                "confidence": 80,
+                "comprehension": 100,
+                "level": "教育"
+            }
+        },
+        "color": "#800000"
+    },
+    {
+        "name": "六郎庄小学",
+        "location": {
+            "status": 0,
+            "result": {
+                "location": {
+                    "lng": 116.29524027940076,
+                    "lat": 39.989258374173545
+                },
+                "precise": 1,
+                "confidence": 80,
+                "comprehension": 100,
+                "level": "教育"
+            }
+        },
+        "color": "#800000"
+    },
+    {
+        "name": "上地实验小学",
+        "location": {
+            "status": 0,
+            "result": {
+                "location": {
+                    "lng": 116.20861509715759,
+                    "lat": 40.134153169592096
+                },
+                "precise": 1,
+                "confidence": 70,
+                "comprehension": 100,
+                "level": "教育"
+            }
+        },
+        "color": "#FF0000"
+    },
+    {
+        "name": "清华附小",
+        "location": {
+            "status": 0,
+            "result": {
+                "location": {
+                    "lng": 120.83240559663992,
+                    "lat": 30.741672282770732
+                },
+                "precise": 1,
+                "confidence": 80,
+                "comprehension": 97,
+                "level": "商务大厦"
+            }
+        },
+        "color": "#FF0000"
+    },
+    {
+        "name": "北大附小",
+        "location": {
+            "status": 0,
+            "result": {
+                "location": {
+                    "lng": 116.3244211787396,
+                    "lat": 40.00120380364164
+                },
+                "precise": 1,
+                "confidence": 80,
+                "comprehension": 100,
+                "level": "教育"
+            }
+        },
+        "color": "#FF0000"
+    },
+    {
+        "name": "清河五小",
+        "location": {
+            "status": 0,
+            "result": {
+                "location": {
+                    "lng": 124.2757801644583,
+                    "lat": 42.50855704819172
+                },
+                "precise": 0,
+                "confidence": 16,
+                "comprehension": 65,
+                "level": "区县"
+            }
+        },
+        "color": "#FF0000"
+    },
+    {
+        "name": "肖家河小学",
+        "location": {
+            "status": 0,
+            "result": {
+                "location": {
+                    "lng": 116.29361848941272,
+                    "lat": 40.0262742458392
+                },
+                "precise": 1,
+                "confidence": 75,
+                "comprehension": 100,
+                "level": "教育"
+            }
+        },
+        "color": "#FF0000"
+    },
+    {
+        "name": "五一小学晋元庄校区",
+        "location": {
+            "status": 0,
+            "result": {
+                "location": {
+                    "lng": 116.21411200374271,
+                    "lat": 39.92699634599218
+                },
+                "precise": 1,
+                "confidence": 75,
+                "comprehension": 100,
+                "level": "教育"
+            }
+        },
+        "color": "#800080"
+    },
+    {
+        "name": "玉泉小学",
+        "location": {
+            "status": 0,
+            "result": {
+                "location": {
+                    "lng": 113.9367334973408,
+                    "lat": 30.922303463140032
+                },
+                "precise": 1,
+                "confidence": 70,
+                "comprehension": 100,
+                "level": "教育"
+            }
+        },
+        "color": "#800080"
+    },
+    {
+        "name": "首师大附小柳明校区",
+        "location": {
+            "status": 0,
+            "result": {
+                "location": {
+                    "lng": 114.53903816918346,
+                    "lat": 38.04965342898228
+                },
+                "precise": 1,
+                "confidence": 75,
+                "comprehension": 42,
+                "level": "教育"
+            }
+        },
+        "color": "#800080"
+    },
+    {
+        "name": "玉泉小学北小区",
+        "location": {
+            "status": 0,
+            "result": {
+                "location": {
+                    "lng": 113.9367334973408,
+                    "lat": 30.922303463140032
+                },
+                "precise": 1,
+                "confidence": 70,
+                "comprehension": 92,
+                "level": "教育"
+            }
+        },
+        "color": "#800080"
+    },
+    {
+        "name": "图强二小",
+        "location": {
+            "status": 0,
+            "result": {
+                "location": {
+                    "lng": 116.2780710398496,
+                    "lat": 39.91624415429145
+                },
+                "precise": 1,
+                "confidence": 80,
+                "comprehension": 100,
+                "level": "教育"
+            }
+        },
+        "color": "#800080"
+    },
+    {
+        "name": "北京教育学院附属小学",
+        "location": {
+            "status": 0,
+            "result": {
+                "location": {
+                    "lng": 116.39564503787867,
+                    "lat": 39.92998577808024
+                },
+                "precise": 0,
+                "confidence": 10,
+                "comprehension": 62,
+                "level": "城市"
+            }
+        },
+        "color": "#800080"
+    },
+    {
+        "name": "亮甲店小学西址",
+        "location": {
+            "status": 0,
+            "result": {
+                "location": {
+                    "lng": 116.28462180252683,
+                    "lat": 39.93571097113571
+                },
+                "precise": 1,
+                "confidence": 80,
+                "comprehension": 95,
+                "level": "教育"
+            }
+        },
+        "color": "#800080"
+    },
+    {
+        "name": "理工大学附小",
+        "location": {
+            "status": 0,
+            "result": {
+                "location": {
+                    "lng": 116.31570339325691,
+                    "lat": 39.967389012097925
+                },
+                "precise": 1,
+                "confidence": 80,
+                "comprehension": 100,
+                "level": "教育"
+            }
+        },
+        "color": "#FF00FF"
+    },
+    {
+        "name": "理工附中附小",
+        "location": {
+            "status": 0,
+            "result": {
+                "location": {
+                    "lng": 125.26523085682643,
+                    "lat": 43.82252775595565
+                },
+                "precise": 0,
+                "confidence": 50,
+                "comprehension": 73,
+                "level": "UNKNOWN"
+            }
+        },
+        "color": "#FF00FF"
+    },
+    {
+        "name": "海淀实验小学阜成路校",
+        "location": {
+            "status": 0,
+            "result": {
+                "location": {
+                    "lng": 116.31634945457968,
+                    "lat": 39.933048077531325
+                },
+                "precise": 1,
+                "confidence": 80,
+                "comprehension": 97,
+                "level": "教育"
+            }
+        },
+        "color": "#FF00FF"
+    },
+    {
+        "name": "海淀实验小学苏州街校",
+        "location": {
+            "status": 0,
+            "result": {
+                "location": {
+                    "lng": 116.31634945457968,
+                    "lat": 39.933048077531325
+                },
+                "precise": 1,
+                "confidence": 80,
+                "comprehension": 95,
+                "level": "教育"
+            }
+        },
+        "color": "#FF00FF"
+    },
+    {
+        "name": "二里沟中心小学",
+        "location": {
+            "status": 0,
+            "result": {
+                "location": {
+                    "lng": 116.336033512084,
+                    "lat": 39.93984565083911
+                },
+                "precise": 1,
+                "confidence": 80,
+                "comprehension": 100,
+                "level": "教育"
+            }
+        },
+        "color": "#FF00FF"
+    },
+    {
+        "name": "二里沟中心小学建设部校",
+        "location": {
+            "status": 0,
+            "result": {
+                "location": {
+                    "lng": 116.336033512084,
+                    "lat": 39.93984565083911
+                },
+                "precise": 1,
+                "confidence": 80,
+                "comprehension": 97,
+                "level": "教育"
+            }
+        },
+        "color": "#FF00FF"
+    },
+    {
+        "name": "花园村二小",
+        "location": {
+            "status": 0,
+            "result": {
+                "location": {
+                    "lng": 116.32517350151944,
+                    "lat": 39.937281065723155
+                },
+                "precise": 1,
+                "confidence": 80,
+                "comprehension": 100,
+                "level": "教育"
+            }
+        },
+        "color": "#FF00FF"
+    },
+    {
+        "name": "花园村二小北址",
+        "location": {
+            "status": 0,
+            "result": {
+                "location": {
+                    "lng": 118.76555750888014,
+                    "lat": 30.94252140900181
+                },
+                "precise": 1,
+                "confidence": 75,
+                "comprehension": 92,
+                "level": "UNKNOWN"
+            }
+        },
+        "color": "#FF00FF"
+    },
+    {
+        "name": "北外附小",
+        "location": {
+            "status": 0,
+            "result": {
+                "location": {
+                    "lng": 116.31807680624483,
+                    "lat": 39.96256186845184
+                },
+                "precise": 0,
+                "confidence": 50,
+                "comprehension": 82,
+                "level": "UNKNOWN"
+            }
+        },
+        "color": "#FF00FF"
+    },
+    {
+        "name": "北外附小魏公村校",
+        "location": {
+            "status": 0,
+            "result": {
+                "location": {
+                    "lng": 116.32568188494653,
+                    "lat": 39.96125266032241
+                },
+                "precise": 0,
+                "confidence": 60,
+                "comprehension": 87,
+                "level": "地产小区"
+            }
+        },
+        "color": "#FF00FF"
+    },
+    {
+        "name": "石油附小",
+        "location": {
+            "status": 0,
+            "result": {
+                "location": {
+                    "lng": 101.72894786960823,
+                    "lat": 36.6619792757357
+                },
+                "precise": 1,
+                "confidence": 80,
+                "comprehension": 97,
+                "level": "加油站"
+            }
+        },
+        "color": "#008000"
+    },
+    {
+        "name": "林大附小",
+        "location": {
+            "status": 0,
+            "result": {
+                "location": {
+                    "lng": 116.35470979477228,
+                    "lat": 40.01026846171897
+                },
+                "precise": 1,
+                "confidence": 80,
+                "comprehension": 100,
+                "level": "教育"
+            }
+        },
+        "color": "#008000"
+    },
+    {
+        "name": "科大附小",
+        "location": {
+            "status": 0,
+            "result": {
+                "location": {
+                    "lng": 120.05595594176808,
+                    "lat": 28.887529682227225
+                },
+                "precise": 1,
+                "confidence": 80,
+                "comprehension": 44,
+                "level": "购物"
+            }
+        },
+        "color": "#008000"
+    },
+    {
+        "name": "石油附小二里庄校区",
+        "location": {
+            "status": 0,
+            "result": {
+                "location": {
+                    "lng": 116.3734547690863,
+                    "lat": 40.00001332322226
+                },
+                "precise": 0,
+                "confidence": 30,
+                "comprehension": 100,
+                "level": "村庄"
+            }
+        },
+        "color": "#008000"
+    },
+    {
+        "name": "中国农大附小",
+        "location": {
+            "status": 0,
+            "result": {
+                "location": {
+                    "lng": 121.52015548062481,
+                    "lat": 37.44208556173003
+                },
+                "precise": 1,
+                "confidence": 80,
+                "comprehension": 97,
+                "level": "教育"
+            }
+        },
+        "color": "#008000"
+    },
+    {
+        "name": "实验三小南校",
+        "location": {
+            "status": 0,
+            "result": {
+                "location": {
+                    "lng": 121.5068956217378,
+                    "lat": 30.835564525225283
+                },
+                "precise": 0,
+                "confidence": 60,
+                "comprehension": 76,
+                "level": "UNKNOWN"
+            }
+        },
+        "color": "#008000"
+    },
+    {
+        "name": "实验三小北校",
+        "location": {
+            "status": 0,
+            "result": {
+                "location": {
+                    "lng": 112.0370390635034,
+                    "lat": 37.42498744663247
+                },
+                "precise": 1,
+                "confidence": 80,
+                "comprehension": 95,
+                "level": "教育"
+            }
+        },
+        "color": "#008000"
+    },
+    {
+        "name": "东升实验小学",
+        "location": {
+            "status": 0,
+            "result": {
+                "location": {
+                    "lng": 116.34733415138254,
+                    "lat": 40.021281685776444
+                },
+                "precise": 1,
+                "confidence": 80,
+                "comprehension": 100,
+                "level": "教育"
+            }
+        },
+        "color": "#008000"
+    },
+    {
+        "name": "清华东路小学",
+        "location": {
+            "status": 0,
+            "result": {
+                "location": {
+                    "lng": 116.37442467942677,
+                    "lat": 40.00691798784243
+                },
+                "precise": 1,
+                "confidence": 80,
+                "comprehension": 100,
+                "level": "教育"
+            }
+        },
+        "color": "#008000"
+    },
+    {
+        "name": "石油附小忠新校",
+        "location": {
+            "status": 0,
+            "result": {
+                "location": {
+                    "lng": 113.93180722909895,
+                    "lat": 26.021120648455298
+                },
+                "precise": 0,
+                "confidence": 80,
+                "comprehension": 51,
+                "level": "村庄"
+            }
+        },
+        "color": "#008000"
+    },
+    {
+        "name": "翠微小学",
+        "location": {
+            "status": 0,
+            "result": {
+                "location": {
+                    "lng": 116.30998374283753,
+                    "lat": 39.91604437051517
+                },
+                "precise": 1,
+                "confidence": 75,
+                "comprehension": 100,
+                "level": "教育"
+            }
+        },
+        "color": "#00FF00"
+    },
+    {
+        "name": "翠微小学北址",
+        "location": {
+            "status": 0,
+            "result": {
+                "location": {
+                    "lng": 116.30998374283753,
+                    "lat": 39.91604437051517
+                },
+                "precise": 1,
+                "confidence": 75,
+                "comprehension": 92,
+                "level": "教育"
+            }
+        },
+        "color": "#00FF00"
+    },
+    {
+        "name": "七一小学",
+        "location": {
+            "status": 0,
+            "result": {
+                "location": {
+                    "lng": 116.31333476733907,
+                    "lat": 39.90426314556405
+                },
+                "precise": 1,
+                "confidence": 70,
+                "comprehension": 100,
+                "level": "教育"
+            }
+        },
+        "color": "#00FF00"
+    },
+    {
+        "name": "育鸿学校小学部",
+        "location": {
+            "status": 0,
+            "result": {
+                "location": {
+                    "lng": 116.31994680523172,
+                    "lat": 39.90478222718456
+                },
+                "precise": 1,
+                "confidence": 75,
+                "comprehension": 95,
+                "level": "教育"
+            }
+        },
+        "color": "#00FF00"
+    },
+    {
+        "name": "羊坊店中心小学",
+        "location": {
+            "status": 0,
+            "result": {
+                "location": {
+                    "lng": 116.33351732062172,
+                    "lat": 39.90642915365226
+                },
+                "precise": 1,
+                "confidence": 80,
+                "comprehension": 100,
+                "level": "教育"
+            }
+        },
+        "color": "#00FF00"
+    },
+    {
+        "name": "羊坊店中心小学分校",
+        "location": {
+            "status": 0,
+            "result": {
+                "location": {
+                    "lng": 117.82590154297927,
+                    "lat": 24.445561425635304
+                },
+                "precise": 1,
+                "confidence": 80,
+                "comprehension": 100,
+                "level": "教育"
+            }
+        },
+        "color": "#00FF00"
+    },
+    {
+        "name": "羊坊店四小",
+        "location": {
+            "status": 0,
+            "result": {
+                "location": {
+                    "lng": 116.32597434896635,
+                    "lat": 39.90925071294184
+                },
+                "precise": 1,
+                "confidence": 80,
+                "comprehension": 100,
+                "level": "教育"
+            }
+        },
+        "color": "#00FF00"
+    },
+    {
+        "name": "羊坊店五小",
+        "location": {
+            "status": 0,
+            "result": {
+                "location": {
+                    "lng": 116.33526246861732,
+                    "lat": 39.907481156428034
+                },
+                "precise": 1,
+                "confidence": 80,
+                "comprehension": 100,
+                "level": "教育"
+            }
+        },
+        "color": "#00FF00"
+    },
+    {
+        "name": "八里庄小学",
+        "location": {
+            "status": 0,
+            "result": {
+                "location": {
+                    "lng": 116.30634495784385,
+                    "lat": 39.933753104996434
+                },
+                "precise": 1,
+                "confidence": 75,
+                "comprehension": 100,
+                "level": "教育"
+            }
+        },
+        "color": "#808000"
+    },
+    {
+        "name": "万泉小学曙光校",
+        "location": {
+            "status": 0,
+            "result": {
+                "location": {
+                    "lng": 116.30854154388365,
+                    "lat": 39.97661780612545
+                },
+                "precise": 1,
+                "confidence": 75,
+                "comprehension": 92,
+                "level": "教育"
+            }
+        },
+        "color": "#808000"
+    },
+    {
+        "name": "海淀实验小学本部",
+        "location": {
+            "status": 0,
+            "result": {
+                "location": {
+                    "lng": 116.31634945457968,
+                    "lat": 39.933048077531325
+                },
+                "precise": 1,
+                "confidence": 80,
+                "comprehension": 97,
+                "level": "教育"
+            }
+        },
+        "color": "#808000"
+    },
+    {
+        "name": "人大附小",
+        "location": {
+            "status": 0,
+            "result": {
+                "location": {
+                    "lng": 116.28440777674754,
+                    "lat": 39.972585107144596
+                },
+                "precise": 1,
+                "confidence": 70,
+                "comprehension": 100,
+                "level": "教育"
+            }
+        },
+        "color": "#808000"
+    },
+    {
+        "name": "人大附小银燕校区",
+        "location": {
+            "status": 0,
+            "result": {
+                "location": {
+                    "lng": 116.29404671614084,
+                    "lat": 39.97370377089945
+                },
+                "precise": 1,
+                "confidence": 80,
+                "comprehension": 100,
+                "level": "UNKNOWN"
+            }
+        },
+        "color": "#808000"
+    },
+    {
+        "name": "定慧里小学",
+        "location": {
+            "status": 0,
+            "result": {
+                "location": {
+                    "lng": 116.28788807998824,
+                    "lat": 39.92859693629675
+                },
+                "precise": 1,
+                "confidence": 90,
+                "comprehension": 100,
+                "level": "教育"
+            }
+        },
+        "color": "#808000"
+    },
+    {
+        "name": "亮甲店小学",
+        "location": {
+            "status": 0,
+            "result": {
+                "location": {
+                    "lng": 116.28462180252683,
+                    "lat": 39.93571097113571
+                },
+                "precise": 1,
+                "confidence": 80,
+                "comprehension": 100,
+                "level": "教育"
+            }
+        },
+        "color": "#808000"
+    },
+    {
+        "name": "六一小学本校",
+        "location": {
+            "status": 0,
+            "result": {
+                "location": {
+                    "lng": 116.29314932600418,
+                    "lat": 39.93466086104217
+                },
+                "precise": 1,
+                "confidence": 90,
+                "comprehension": 97,
+                "level": "教育"
+            }
+        },
+        "color": "#808000"
+    },
+    {
+        "name": "五一小学",
+        "location": {
+            "status": 0,
+            "result": {
+                "location": {
+                    "lng": 116.26965587912035,
+                    "lat": 39.90768682923264
+                },
+                "precise": 1,
+                "confidence": 70,
+                "comprehension": 100,
+                "level": "教育"
+            }
+        },
+        "color": "#FFFF00"
+    },
+    {
+        "name": "育英学校紫金长安校",
+        "location": {
+            "status": 0,
+            "result": {
+                "location": {
+                    "lng": 116.29446215099853,
+                    "lat": 39.9166028243449
+                },
+                "precise": 0,
+                "confidence": 60,
+                "comprehension": 87,
+                "level": "教育"
+            }
+        },
+        "color": "#FFFF00"
+    },
+    {
+        "name": "群英小学（合）",
+        "location": {
+            "status": 0,
+            "result": {
+                "location": {
+                    "lng": 116.30590640419557,
+                    "lat": 39.90708253792077
+                },
+                "precise": 1,
+                "confidence": 80,
+                "comprehension": 97,
+                "level": "教育"
+            }
+        },
+        "color": "#FFFF00"
+    },
+    {
+        "name": "太平路小学",
+        "location": {
+            "status": 0,
+            "result": {
+                "location": {
+                    "lng": 116.26161224317713,
+                    "lat": 39.912110974380866
+                },
+                "precise": 1,
+                "confidence": 80,
+                "comprehension": 100,
+                "level": "教育"
+            }
+        },
+        "color": "#FFFF00"
+    },
+    {
+        "name": "太平路小学分校",
+        "location": {
+            "status": 0,
+            "result": {
+                "location": {
+                    "lng": 116.26131098205147,
+                    "lat": 39.91219259012662
+                },
+                "precise": 1,
+                "confidence": 90,
+                "comprehension": 100,
+                "level": "教育"
+            }
+        },
+        "color": "#FFFF00"
+    },
+    {
+        "name": "培英小学",
+        "location": {
+            "status": 0,
+            "result": {
+                "location": {
+                    "lng": 116.28352088510738,
+                    "lat": 39.90607831955703
+                },
+                "precise": 1,
+                "confidence": 75,
+                "comprehension": 100,
+                "level": "教育"
+            }
+        },
+        "color": "#FFFF00"
+    },
+    {
+        "name": "西翠路小学",
+        "location": {
+            "status": 0,
+            "result": {
+                "location": {
+                    "lng": 116.29264825658055,
+                    "lat": 39.9244889761972
+                },
+                "precise": 1,
+                "confidence": 80,
+                "comprehension": 100,
+                "level": "教育"
+            }
+        },
+        "color": "#FFFF00"
+    },
+    {
+        "name": "海淀实验二小",
+        "location": {
+            "status": 0,
+            "result": {
+                "location": {
+                    "lng": 116.3242864329131,
+                    "lat": 40.049992996836934
+                },
+                "precise": 1,
+                "confidence": 80,
+                "comprehension": 100,
+                "level": "教育"
+            }
+        },
+        "color": "#000080"
+    },
+    {
+        "name": "海淀实验二小当代校",
+        "location": {
+            "status": 0,
+            "result": {
+                "location": {
+                    "lng": 116.3242864329131,
+                    "lat": 40.049992996836934
+                },
+                "precise": 1,
+                "confidence": 80,
+                "comprehension": 95,
+                "level": "教育"
+            }
+        },
+        "color": "#000080"
+    },
+    {
+        "name": "海淀实验二小海宁校",
+        "location": {
+            "status": 0,
+            "result": {
+                "location": {
+                    "lng": 120.61872710777868,
+                    "lat": 30.442176799316616
+                },
+                "precise": 0,
+                "confidence": 14,
+                "comprehension": 64,
+                "level": "区县"
+            }
+        },
+        "color": "#000080"
+    },
+    {
+        "name": "海淀实验二小朱房校",
+        "location": {
+            "status": 0,
+            "result": {
+                "location": {
+                    "lng": 116.23967780102151,
+                    "lat": 40.03316204507791
+                },
+                "precise": 0,
+                "confidence": 16,
+                "comprehension": 38,
+                "level": "区县"
+            }
+        },
+        "color": "#000080"
+    },
+    {
+        "name": "育鹰小学西校",
+        "location": {
+            "status": 0,
+            "result": {
+                "location": {
+                    "lng": 116.33134002030292,
+                    "lat": 40.060490716560885
+                },
+                "precise": 1,
+                "confidence": 75,
+                "comprehension": 95,
+                "level": "教育"
+            }
+        },
+        "color": "#000080"
+    },
+    {
+        "name": "清河一小",
+        "location": {
+            "status": 0,
+            "result": {
+                "location": {
+                    "lng": 124.1640827525235,
+                    "lat": 42.55399365563224
+                },
+                "precise": 1,
+                "confidence": 80,
+                "comprehension": 100,
+                "level": "教育"
+            }
+        },
+        "color": "#000080"
+    },
+    {
+        "name": "清河一小分校",
+        "location": {
+            "status": 0,
+            "result": {
+                "location": {
+                    "lng": 124.2757801644583,
+                    "lat": 42.50855704819172
+                },
+                "precise": 0,
+                "confidence": 16,
+                "comprehension": 65,
+                "level": "区县"
+            }
+        },
+        "color": "#000080"
+    },
+    {
+        "name": "西二旗小学",
+        "location": {
+            "status": 0,
+            "result": {
+                "location": {
+                    "lng": 116.31779428107718,
+                    "lat": 40.056417232036026
+                },
+                "precise": 1,
+                "confidence": 80,
+                "comprehension": 100,
+                "level": "教育"
+            }
+        },
+        "color": "#000080"
+    },
+    {
+        "name": "中关村一小天秀",
+        "location": {
+            "status": 0,
+            "result": {
+                "location": {
+                    "lng": 112.34487891267081,
+                    "lat": 28.58845674450628
+                },
+                "precise": 1,
+                "confidence": 80,
+                "comprehension": 95,
+                "level": "购物"
+            }
+        },
+        "color": "#0000FF"
+    },
+    {
+        "name": "中关村二小百旺",
+        "location": {
+            "status": 0,
+            "result": {
+                "location": {
+                    "lng": 128.2491403082562,
+                    "lat": 43.37399803508489
+                },
+                "precise": 1,
+                "confidence": 70,
+                "comprehension": 92,
+                "level": "UNKNOWN"
+            }
+        },
+        "color": "#0000FF"
+    },
+    {
+        "name": "中关村三小红山",
+        "location": {
+            "status": 0,
+            "result": {
+                "location": {
+                    "lng": 116.32711270955606,
+                    "lat": 39.99441274013135
+                },
+                "precise": 1,
+                "confidence": 80,
+                "comprehension": 94,
+                "level": "地产小区"
+            }
+        },
+        "color": "#0000FF"
+    },
+    {
+        "name": "西苑小学",
+        "location": {
+            "status": 0,
+            "result": {
+                "location": {
+                    "lng": 116.3002019036986,
+                    "lat": 39.99923196239412
+                },
+                "precise": 1,
+                "confidence": 75,
+                "comprehension": 100,
+                "level": "教育"
+            }
+        },
+        "color": "#0000FF"
+    },
+    {
+        "name": "中关村一小党校",
+        "location": {
+            "status": 0,
+            "result": {
+                "location": {
+                    "lng": 112.34487891267081,
+                    "lat": 28.58845674450628
+                },
+                "precise": 1,
+                "confidence": 80,
+                "comprehension": 95,
+                "level": "购物"
+            }
+        },
+        "color": "#0000FF"
+    },
+    {
+        "name": "农大附小",
+        "location": {
+            "status": 0,
+            "result": {
+                "location": {
+                    "lng": 116.28458833615504,
+                    "lat": 40.027462023244276
+                },
+                "precise": 1,
+                "confidence": 80,
+                "comprehension": 100,
+                "level": "教育"
+            }
+        },
+        "color": "#0000FF"
+    },
+    {
+        "name": "东北旺中心小学",
+        "location": {
+            "status": 0,
+            "result": {
+                "location": {
+                    "lng": 116.28402367568437,
+                    "lat": 40.03656044282551
+                },
+                "precise": 1,
+                "confidence": 90,
+                "comprehension": 100,
+                "level": "教育"
+            }
+        },
+        "color": "#0000FF"
+    },
+    {
+        "name": "培新小学",
+        "location": {
+            "status": 0,
+            "result": {
+                "location": {
+                    "lng": 116.43887224640899,
+                    "lat": 39.89509248348711
+                },
+                "precise": 1,
+                "confidence": 75,
+                "comprehension": 100,
+                "level": "教育"
+            }
+        },
+        "color": "#0000FF"
+    },
+    {
+        "name": "培新小学北校",
+        "location": {
+            "status": 0,
+            "result": {
+                "location": {
+                    "lng": 116.43887224640899,
+                    "lat": 39.89509248348711
+                },
+                "precise": 1,
+                "confidence": 75,
+                "comprehension": 92,
+                "level": "教育"
+            }
+        },
+        "color": "#0000FF"
+    },
+    {
+        "name": "六郎庄小学西苑校",
+        "location": {
+            "status": 0,
+            "result": {
+                "location": {
+                    "lng": 116.29524027940076,
+                    "lat": 39.989258374173545
+                },
+                "precise": 1,
+                "confidence": 80,
+                "comprehension": 97,
+                "level": "教育"
+            }
+        },
+        "color": "#0000FF"
+    },
+    {
+        "name": "肖家河小学本校",
+        "location": {
+            "status": 0,
+            "result": {
+                "location": {
+                    "lng": 116.29361848941272,
+                    "lat": 40.0262742458392
+                },
+                "precise": 1,
+                "confidence": 75,
+                "comprehension": 95,
+                "level": "教育"
+            }
+        },
+        "color": "#0000FF"
+    }
+]
