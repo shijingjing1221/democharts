@@ -1,7 +1,7 @@
 function queryLocation(address, resultItem){
 var myak='CyRMAolgs44vszv7T1WGZ94SrBzIGdtr';
 
-var url = 'http://api.map.baidu.com/geocoder/v2/?address='+address+'&output=json&ak=' +myak;
+var url = 'https://api.map.baidu.com/geocoder/v2/?address='+address+'&output=json&ak=' +myak;
 
 
 $.ajax({
