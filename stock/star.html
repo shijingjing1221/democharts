@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>压力与支撑</title>
+</head>
+<body>
+    <!-- 图表容器 DOM -->
+    <div id="chartContainer" style="width: 100%;height:100%;"></div>
+    <!-- 引入 highcharts.js -->
+    <!-- <script src="http://cdn.hcharts.cn/highcharts/highcharts.js"></script> -->
+    <script src="../highcharts.js"></script>
+     <script src="../highcharts-more.js"></script>
+    <script>
+const stockDiagPoints =  {
+      "basicScore": 82.7,
+      "industryScore": 93.6,
+      "techScore": 60.0,
+      "messageScore": 74.78,
+      "moneyScore": 70.0,
+      "totalPoint": 86.84,
+      "percent": 98.79
+    };
+    const categories = ['基本面', '资金面', '消息面', '技术面', '行业面'];
+    const data = [
+      parseInt(stockDiagPoints.basicScore.toFixed(0), 10),
+      parseInt(stockDiagPoints.moneyScore.toFixed(0), 10),
+      parseInt(stockDiagPoints.messageScore.toFixed(0), 10),
+      parseInt(stockDiagPoints.techScore.toFixed(0), 10),
+      parseInt(stockDiagPoints.industryScore.toFixed(0), 10),
+    ];
+    Highcharts.chart('chartContainer', {
+      chart: {
+       polar: true,
+    type: 'area',
+        backgroundColor: 'transparent',
+      },
+      title: {
+        text: '',
+      },
+      credits: {
+        // 去水印
+        enabled: false,
+      },
+      pane: {
+        size: '85%',
+        center: ['50%', '50%'],
+      },
+      colors: ['#FDE9C9'],
+      xAxis: {
+        categories,
+        tickmarkPlacement: 'on',
+        lineWidth: 0,
+        gridLineWidth: 0,
+        labels: {
+          enabled: true,
+        },
+      },
+      yAxis: {
+        gridLineInterpolation: 'polygon',
+        minorTickInterval: 20,
+        max: 100,
+        softMax: 100,
+        labels: {
+          enabled: false,
+        },
+      },
+      tooltip: {
+        formatter() {
+          return `${this.x}: ${this.y}`;
+        },
+      },
+      series: [
+        {
+          data,
+          pointPlacement: 'on',
+          marker: {
+            lineColor: '#F7C275',
+            radius: 3,
+            lineWidth: 2,
+            fillColor: 'transparent',
+          },
+          showInLegend: false,
+        },
+      ],
+    });
+    </script>
+</body>
+</html>

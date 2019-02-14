@@ -15,23 +15,23 @@
     // 基于准备好的dom，初始化echarts实例
     var myChart = echarts.init(document.getElementById('main'));
 
-option = {
-    xAxis: {
-        type: 'category',
-        data: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
-    },
-    yAxis: {
-        type: 'value'
-    },
-    series: [{
-        data: [820, 932, 901, 934, 1290, 1330, 1320],
-        type: 'line',
-         markPoint: {
-                data: [
-                    {name: '标注点', value: 1290, xAxis: 4, yAxis:1290}
-                ]
-            }
-    }]
+    option = {
+        xAxis: {
+            type: 'category',
+            data: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
+        },
+        yAxis: {
+            type: 'value'
+        },
+        series: [{
+            data: [820, 932, 901, 934, 1290, 1330, 1320],
+            type: 'line',
+             markPoint: {
+                    data: [
+                        {name: '标注点', value: 1290, xAxis: 4, yAxis:1290}
+                    ]
+                }
+        }]
 };
 
     // 使用刚指定的配置项和数据显示图表。
