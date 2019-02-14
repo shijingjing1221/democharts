@@ -5,19 +5,20 @@
     <meta charset="utf-8">
     <title>ECharts</title>
     <!-- 引入 echarts.js -->
-    <script src="../lib/echarts.min.js"></script>
+    <script src="../lib/echarts-2.2.7/build/dist/echarts-all.js"></script>
+  
 
-     <script type="text/javascript">
+     
+</head>
 
-    //     document.onreadystatechange = function () {
-    //     if (document.readyState == "complete") {
-    //          // 基于准备好的dom，初始化echarts实例
-           
-    //     }
-    // }
+<body>
+    <!-- 为ECharts准备一个具备大小（宽高）的Dom -->
+    <div id="main" style="width: 600px;height:400px;"></div>
+   <script type="text/javascript">
 
- var myChart = echarts.init(document.getElementById('main'));
-    var option = {
+
+                var myChart = echarts.init(document.getElementById('main'));
+               var option = {
     title : {
         text: '树图',
         subtext: '虚构数据'
@@ -138,19 +139,11 @@
         }
     ]
 };
-                    ;
+                  
+                myChart.setOption(option);
 
 
-
-    // 使用刚指定的配置项和数据显示图表。
-    myChart.setOption(option);
     </script>
-</head>
-
-<body>
-    <!-- 为ECharts准备一个具备大小（宽高）的Dom -->
-    <div id="main" style="width: 600px;height:400px;"></div>
-   
 </body>
 
 </html>
